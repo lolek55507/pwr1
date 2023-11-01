@@ -1,0 +1,38 @@
+.nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.NavigationBar {
+    display: flex;
+    flex-direction: row;
+    gap: 80px   ;
+}
+.Logo {
+    width: 40px;
+}
+.WholePage {
+    width: 90vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    background-color: aqua;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(46, 238, 46);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Bottom {
+    background-color: gray;
+    color: azure;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
